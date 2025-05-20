@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ki_7\\PRU212\\g\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|d:\\ki_7\\pru212\\g\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainMenuController.cs",
+              "DocumentMoniker": "D:\\ki_7\\PRU212\\g\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\MainMenuController.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\MainMenuController.cs",
+              "ToolTip": "D:\\ki_7\\PRU212\\g\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\MainMenuController.cs",
+              "RelativeToolTip": "Assets\\scripts\\MainMenuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T09:12:26.015Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
