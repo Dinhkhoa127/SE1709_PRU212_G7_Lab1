@@ -1025,6 +1025,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1142578152}
   m_CullTransparentMesh: 1
+
 --- !u!1 &1302929404
 GameObject:
   m_ObjectHideFlags: 0
@@ -1117,6 +1118,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+
 --- !u!1 &1474303820
 GameObject:
   m_ObjectHideFlags: 0
@@ -1652,11 +1654,14 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1707869794}
   m_CullTransparentMesh: 1
+
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1302929407}
+
   - {fileID: 83328319}
   - {fileID: 563137836}
   - {fileID: 461256982}
+
