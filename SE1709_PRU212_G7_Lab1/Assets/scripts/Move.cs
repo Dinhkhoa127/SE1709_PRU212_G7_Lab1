@@ -3,7 +3,6 @@ using UnityEngine;
 public class Move : MonoBehaviour
 {
     [SerializeField]
-    public float moveSpeed = 5f;
     private Rigidbody2D rb;
     private Vector2 movement;
 
@@ -21,6 +20,6 @@ public class Move : MonoBehaviour
     }
      void FixedUpdate()
     {
-        rb.linearVelocity = movement * moveSpeed;
+        rb.linearVelocity = movement * GameManager.instance.GetPlayerSpeed();
     }
 }
