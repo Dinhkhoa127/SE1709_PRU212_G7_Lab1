@@ -12,7 +12,7 @@ public class MainMenuController : MonoBehaviour
     public void ShowInstructions()
     {
         // Tạo scene mới tên là "Instructions" hoặc bật panel
-        SceneManager.LoadScene("Instrucitons");
+        SceneManager.LoadScene("Instructions");
     }
     public void ShowLeaderboard()
     {
@@ -23,5 +23,20 @@ public class MainMenuController : MonoBehaviour
     {
         Debug.Log("Quit Game");
         Application.Quit(); // Chỉ hoạt động khi build ra file
+    }
+    public void BackToMainMenu()
+    {
+        // Quay lại menu chính
+        SceneManager.LoadScene("MainMenu");
+    }
+    public void ContinuePlay()
+    {
+        // Quay lại menu chính
+        SceneManager.LoadScene("LeaderBoard");
+    }
+    public void ReplayGame()
+    {
+        // Bắt đầu trò chơi
+        SceneManager.LoadScene("Game");
     }
 }
