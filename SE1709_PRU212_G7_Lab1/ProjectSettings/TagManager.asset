@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 3
   tags:
   - Wall
+  - Lazer
+  - AsteroidSmall
+  - AsteroidMedium
+  - AsteroidLarge
   layers:
   - Default
   - TransparentFX

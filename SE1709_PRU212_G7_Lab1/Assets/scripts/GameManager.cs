@@ -1,3 +1,4 @@
+using System.Threading;
 using TMPro;
 using UnityEngine;
 
@@ -14,6 +15,8 @@ public class GameManager : MonoBehaviour
     private float speedIncrease = 0.008f;
     [SerializeField]
     private TextMeshProUGUI scoreText;
+    private float currentTime = 0f;
+    public float gameTime = 0f;
 
     public void Awake()
     {
@@ -42,12 +45,13 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        gameTime += Time.deltaTime;
         gameSpeed += speedIncrease * Time.deltaTime;
         UpdateGameScore();
     }
     
 
-    private void AddBonusScore(int amount)
+    public void AddBonusScoreFromAsteroid(int amount)
     {
         score += amount;
         ShowScoreUI();
@@ -61,6 +65,8 @@ public class GameManager : MonoBehaviour
 
     private void ShowScoreUI()
     {
-        scoreText.text = "Score: " +Mathf.FloorToInt(score);
+
+        currentTime += Time.deltaTime;
+        scoreText.text = "Score: " +Mathf.FloorToInt(score) + " Time: " + Mathf.FloorToInt(currentTime);
     }
 }
