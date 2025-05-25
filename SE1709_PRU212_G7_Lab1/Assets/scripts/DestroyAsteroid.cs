@@ -69,9 +69,9 @@ public class DestroyAsteroid : MonoBehaviour
             {
                 int bonusScore = 0;
                 
-                if (CompareTag("AsteroidSmall")) bonusScore = 10;
-                else if (CompareTag("AsteroidMedium")) bonusScore = 20;
-                else if (CompareTag("AsteroidLarge")) bonusScore = 30;
+                if (CompareTag("AsteroidSmall")) bonusScore = 2;
+                else if (CompareTag("AsteroidMedium")) bonusScore = 3;
+                else if (CompareTag("AsteroidLarge")) bonusScore = 4;
                 if (explosionAsteroid != null)
                 {
                     GameObject effect = Instantiate(explosionAsteroid, transform.position, Quaternion.identity);

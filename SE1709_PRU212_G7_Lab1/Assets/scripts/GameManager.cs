@@ -47,7 +47,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        // Tự động tìm BackgroundManager nếu chưa được gán
+        //// Tự động tìm BackgroundManager nếu chưa được gán
         if (backgroundManager == null)
         {
             backgroundManager = FindObjectOfType<BackgroundManager>();
@@ -84,7 +84,7 @@ public class GameManager : MonoBehaviour
 
     private void UpdateGameScore()
     {
-        score += Time.deltaTime * 10;
+        score += Time.deltaTime * 1;
         ShowScoreUI();
     }
 
