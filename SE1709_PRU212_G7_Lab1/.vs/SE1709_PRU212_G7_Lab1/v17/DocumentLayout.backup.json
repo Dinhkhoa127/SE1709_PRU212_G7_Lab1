@@ -3,27 +3,31 @@
   "WorkspaceRootPath": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\assets\\scripts\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|e:\\hoc\\semester7\\pru212\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\destroyasteroid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\destroyasteroid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|e:\\hoc\\semester7\\pru212\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\asteroidsspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\asteroidsspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|e:\\hoc\\semester7\\pru212\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\dropitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dropitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|e:\\hoc\\semester7\\pru212\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|e:\\hoc\\semester7\\pru212\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|e:\\hoc\\semester7\\pru212\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\assets\\scripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|e:\\hoc\\semester7\\pru212\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\assets\\scripts\\asteroidsspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\asteroidsspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\assets\\scripts\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,11 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DropItem.cs",
+              "DocumentMoniker": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\DropItem.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\DropItem.cs",
+              "ToolTip": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\DropItem.cs",
+              "RelativeToolTip": "Assets\\scripts\\DropItem.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T07:25:31.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DestroyAsteroid.cs",
+              "DocumentMoniker": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\DestroyAsteroid.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\DestroyAsteroid.cs",
+              "ToolTip": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\DestroyAsteroid.cs",
+              "RelativeToolTip": "Assets\\scripts\\DestroyAsteroid.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowFAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T03:10:15.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AsteroidsSpawner.cs",
               "DocumentMoniker": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\AsteroidsSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\AsteroidsSpawner.cs",
@@ -51,20 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DestroyAsteroid.cs",
-              "DocumentMoniker": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\DestroyAsteroid.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\DestroyAsteroid.cs",
-              "ToolTip": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\DestroyAsteroid.cs",
-              "RelativeToolTip": "Assets\\scripts\\DestroyAsteroid.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwDoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T03:10:15.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Fire.cs",
               "DocumentMoniker": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\Fire.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Fire.cs",
@@ -72,18 +89,17 @@
               "RelativeToolTip": "Assets\\scripts\\Fire.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T03:10:11.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T03:10:11.988Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GameManager.cs",
               "DocumentMoniker": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\GameManager.cs",
               "ToolTip": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\scripts\\GameManager.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAYwBcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAmwGIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T03:04:44.288Z",
               "EditorCaption": ""
@@ -103,13 +119,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PlayerShoot.cs",
               "DocumentMoniker": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\PlayerShoot.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\PlayerShoot.cs",
               "ToolTip": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\PlayerShoot.cs",
               "RelativeToolTip": "Assets\\scripts\\PlayerShoot.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAA0wEkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAuwGkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T03:04:20.176Z",
               "EditorCaption": ""
