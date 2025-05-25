@@ -1,0 +1,29 @@
+{
+  "scores": [
+    {
+      "playerName": "Alice",
+      "score": 1500,
+      "date": "2024-06-01 10:00:00"
+    },
+    {
+      "playerName": "Bob",
+      "score": 1200,
+      "date": "2024-06-01 11:00:00"
+    },
+    {
+      "playerName": "Charlie",
+      "score": 900,
+      "date": "2024-06-01 12:00:00"
+    },
+    {
+      "playerName": "David",
+      "score": 800,
+      "date": "2024-06-01 13:00:00"
+    },
+    {
+      "playerName": "Eve",
+      "score": 700,
+      "date": "2024-06-01 14:00:00"
+    }
+  ]
+}

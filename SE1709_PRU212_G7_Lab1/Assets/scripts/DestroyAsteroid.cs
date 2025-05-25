@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class DestroyAsteroid : MonoBehaviour
@@ -7,7 +8,14 @@ public class DestroyAsteroid : MonoBehaviour
     private float currentGameTimePassed = 0f;
     private float healthIncreaseInterval = 60f; // Tăng máu mỗi 60 giây
     private float healthIncreaseAmount = 1f; // Mỗi lần tăng 1 máu
-    
+    public GameObject explosionAsteroid; // Gắn prefab hiệu ứng nổ từ Inspector
+    [System.Serializable]
+    public class DropOption
+    {
+        public GameObject prefab;
+        [Range(0f, 1f)] public float chance; // Tỉ lệ rơi
+    }
+    public List<DropOption> dropOptions;
     void Start()
     {
         // Set initial health based on asteroid type
@@ -37,8 +45,20 @@ public class DestroyAsteroid : MonoBehaviour
         if (transform.position.y < Camera.main.transform.position.y - Camera.main.orthographicSize - 1f)
         {
             Destroy(gameObject);
+        } 
+    }
+    void TryDropItem()
+    {
+        foreach (DropOption option in dropOptions)
+        {
+            if (Random.value <= option.chance)
+            {
+                Instantiate(option.prefab, transform.position, Quaternion.identity);
+                break; // chỉ rơi 1 vật phẩm
+            }
         }
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Lazer"))
@@ -52,10 +72,18 @@ public class DestroyAsteroid : MonoBehaviour
                 if (CompareTag("AsteroidSmall")) bonusScore = 10;
                 else if (CompareTag("AsteroidMedium")) bonusScore = 20;
                 else if (CompareTag("AsteroidLarge")) bonusScore = 30;
+                if (explosionAsteroid != null)
+                {
+                    GameObject effect = Instantiate(explosionAsteroid, transform.position, Quaternion.identity);
+                    Destroy(effect, 0.3f); // Hủy hiệu ứng sau 1 giây
+                }
                 Destroy(gameObject);
-
+                TryDropItem();
                 GameManager.instance.AddBonusScoreFromAsteroid(bonusScore);
             }
         }
+       
     }
+
+  
 }

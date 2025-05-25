@@ -1,6 +1,7 @@
-using System.Threading;
+﻿using System.Threading;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -17,7 +18,10 @@ public class GameManager : MonoBehaviour
     private TextMeshProUGUI scoreText;
     private float currentTime = 0f;
     public float gameTime = 0f;
-
+    [SerializeField] private Image[] heartImages;
+    [SerializeField] private Sprite fullHeartSprite;
+    [SerializeField] private Sprite emptyHeartSprite;
+ 
     public void Awake()
     {
         if (instance == null)
@@ -69,4 +73,49 @@ public class GameManager : MonoBehaviour
         currentTime += Time.deltaTime;
         scoreText.text = "Score: " +Mathf.FloorToInt(score) + " Time: " + Mathf.FloorToInt(currentTime);
     }
+    private void UpdateHeartUI()
+    {
+        for (int i = 0; i < heartImages.Length; i++)
+        {
+            if (i < heart)
+            {
+                heartImages[i].sprite = fullHeartSprite;
+            }
+            else
+            {
+                heartImages[i].sprite = emptyHeartSprite;
+            }
+        }
+    }
+    public void AddHealth()
+    {
+        if(heart == 3)
+        {
+            heart = 3;
+        }
+        else { 
+        heart++;
+        UpdateHeartUI();
+        }
+    }
+    public void TakeDamage()
+    {
+        //if (heart <= 0) return;
+
+        heart--;
+        UpdateHeartUI();
+
+       
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            player.GetComponent<PlayerShoot>().ResetPlayer();
+        }
+
+        //if (heart <= 0)
+        //{
+        //    GameOver();
+        //}
+    }
+
 }
