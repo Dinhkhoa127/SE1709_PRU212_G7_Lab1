@@ -1123,6 +1123,7 @@ MonoBehaviour:
   - {fileID: 742033631}
   fullHeartSprite: {fileID: 21300000, guid: fed24bd82cefc0c4a8ef64dab6231b53, type: 3}
   emptyHeartSprite: {fileID: 21300002, guid: fed24bd82cefc0c4a8ef64dab6231b53, type: 3}
+  backgroundManager: {fileID: 1767508954}
 --- !u!1 &1256066466
 GameObject:
   m_ObjectHideFlags: 0
@@ -1625,6 +1626,7 @@ GameObject:
   - component: {fileID: 1767508950}
   - component: {fileID: 1767508949}
   - component: {fileID: 1767508953}
+  - component: {fileID: 1767508954}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -1734,6 +1736,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ef55415a2601364286162dd80108dfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1767508954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767508948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 006dc2c181b08c544a872a31227cf91e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backgroundMaterials:
+  - {fileID: 2100000, guid: 0287e015a9ece584d95b19df23669d67, type: 2}
+  - {fileID: 2100000, guid: a33b2783c3cedc844bf142139f5f4607, type: 2}
+  - {fileID: 2100000, guid: cde071677f204da41acb05a2c8efb66f, type: 2}
+  timeToChangeBackground: 10
+  backgroundMeshRenderer: {fileID: 1767508950}
 --- !u!1 &1991955642
 GameObject:
   m_ObjectHideFlags: 0
