@@ -2,6 +2,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -112,10 +113,10 @@ public class GameManager : MonoBehaviour
             player.GetComponent<PlayerShoot>().ResetPlayer();
         }
 
-        //if (heart <= 0)
-        //{
-        //    GameOver();
-        //}
+        if (heart <= 0)
+        {
+            SceneManager.LoadScene("EndGame");
+        }
     }
 
 }
