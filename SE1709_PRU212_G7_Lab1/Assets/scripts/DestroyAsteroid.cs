@@ -69,16 +69,25 @@ public class DestroyAsteroid : MonoBehaviour
             {
                 int bonusScore = 0;
                 
+<<<<<<< HEAD
                 if (CompareTag("AsteroidSmall")) bonusScore = 2;
                 else if (CompareTag("AsteroidMedium")) bonusScore = 3;
                 else if (CompareTag("AsteroidLarge")) bonusScore = 4;
+=======
+                if (CompareTag("AsteroidSmall")) bonusScore = 10;
+                else if (CompareTag("AsteroidMedium")) bonusScore = 20;
+                else if (CompareTag("AsteroidLarge")) bonusScore = 30;
+>>>>>>> b96ea62ee3413b60fd9fa9115791a9d5bccb7d6e
                 if (explosionAsteroid != null)
                 {
                     GameObject effect = Instantiate(explosionAsteroid, transform.position, Quaternion.identity);
                     Destroy(effect, 0.3f); // Hủy hiệu ứng sau 1 giây
                 }
                 Destroy(gameObject);
+<<<<<<< HEAD
                 AudioManager.instance.PlayExplosionSound();
+=======
+>>>>>>> b96ea62ee3413b60fd9fa9115791a9d5bccb7d6e
                 TryDropItem();
                 GameManager.instance.AddBonusScoreFromAsteroid(bonusScore);
             }
