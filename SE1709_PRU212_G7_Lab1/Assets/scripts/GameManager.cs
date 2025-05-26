@@ -22,16 +22,13 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Image[] heartImages;
     [SerializeField] private Sprite fullHeartSprite;
     [SerializeField] private Sprite emptyHeartSprite;
-    
-    [Header("Background Manager")]
-    [SerializeField] private BackgroundManager backgroundManager;
- 
+
     public void Awake()
     {
         if (instance == null)
         {
             instance = this;
-        }    
+        }
     }
 
     public float GetGameSpeed()
@@ -47,11 +44,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        //// Tự động tìm BackgroundManager nếu chưa được gán
-        if (backgroundManager == null)
-        {
-            backgroundManager = FindObjectOfType<BackgroundManager>();
-        }
+
     }
 
     // Update is called once per frame
@@ -60,21 +53,8 @@ public class GameManager : MonoBehaviour
         gameTime += Time.deltaTime;
         gameSpeed += speedIncrease * Time.deltaTime;
         UpdateGameScore();
-        
-        // Có thể điều chỉnh tốc độ chuyển background dựa trên thời gian chơi
-        // AdjustBackgroundChangeSpeed(); // Tạm thời tắt để test
     }
-    
-    private void AdjustBackgroundChangeSpeed()
-    {
-        if (backgroundManager != null)
-        {
-            // Ví dụ: Giảm thời gian chuyển background khi game khó hơn
-            // Sau mỗi 60 giây, giảm thời gian chuyển background
-            float newChangeTime = Mathf.Max(15f, 30f - (gameTime / 60f) * 5f);
-            backgroundManager.SetChangeTime(newChangeTime);
-        }
-    }
+
 
     public void AddBonusScoreFromAsteroid(int amount)
     {
@@ -84,7 +64,7 @@ public class GameManager : MonoBehaviour
 
     private void UpdateGameScore()
     {
-        score += Time.deltaTime * 1;
+        score += Time.deltaTime * 10;
         ShowScoreUI();
     }
 
@@ -92,7 +72,7 @@ public class GameManager : MonoBehaviour
     {
 
         currentTime += Time.deltaTime;
-        scoreText.text = "Score: " +Mathf.FloorToInt(score) + " Time: " + Mathf.FloorToInt(currentTime);
+        scoreText.text = "Score: " + Mathf.FloorToInt(score) + " Time: " + Mathf.FloorToInt(currentTime);
     }
     private void UpdateHeartUI()
     {
@@ -110,13 +90,14 @@ public class GameManager : MonoBehaviour
     }
     public void AddHealth()
     {
-        if(heart == 3)
+        if (heart == 3)
         {
             heart = 3;
         }
-        else { 
-        heart++;
-        UpdateHeartUI();
+        else
+        {
+            heart++;
+            UpdateHeartUI();
         }
     }
     public void TakeDamage()
@@ -126,7 +107,7 @@ public class GameManager : MonoBehaviour
         heart--;
         UpdateHeartUI();
 
-       
+
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
         {
@@ -135,6 +116,8 @@ public class GameManager : MonoBehaviour
 
         if (heart <= 0)
         {
+            PlayerPrefs.SetInt("FinalScore", Mathf.FloorToInt(score));
+            PlayerPrefs.Save();
             SceneManager.LoadScene("EndGame");
         }
     }
