@@ -2017,6 +2017,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1956933825}
   - component: {fileID: 1956933826}
+  - component: {fileID: 1956933827}
   m_Layer: 0
   m_Name: Controller
   m_TagString: Untagged
@@ -2053,6 +2054,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameInputField: {fileID: 1122283646}
   scoreText: {fileID: 1346803216}
+--- !u!114 &1956933827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956933823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67dd093ede8ede349859e33688a321ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreData:
+    scores: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
