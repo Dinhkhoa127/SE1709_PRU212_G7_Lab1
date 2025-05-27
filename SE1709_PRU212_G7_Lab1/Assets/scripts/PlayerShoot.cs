@@ -123,18 +123,12 @@ public class PlayerShoot : MonoBehaviour
     private Coroutine rapidFireCoroutine;
 
 
-<<<<<<< HEAD
-
-    private void ActivateRapidFire(float newRate, float duration)
-    {
-=======
     private void ActivateRapidFire(float newRate, float duration)
     {
         if(isRapidFire)
         {
             return; 
         }
->>>>>>> quoc
         if (rapidFireCoroutine != null)
         {
             StopCoroutine(rapidFireCoroutine);

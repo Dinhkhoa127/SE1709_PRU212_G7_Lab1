@@ -504,11 +504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 564619036}
   m_Layer: 0
-<<<<<<< HEAD
-  m_Name: FirePoint
-=======
   m_Name: FirePoint1
->>>>>>> quoc
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -523,11 +519,7 @@ Transform:
   m_GameObject: {fileID: 564619035}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-<<<<<<< HEAD
-  m_LocalPosition: {x: 0.002, y: 0.005, z: 0}
-=======
   m_LocalPosition: {x: -0.006, y: -0.01, z: 0}
->>>>>>> quoc
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -807,10 +799,7 @@ GameObject:
   m_Component:
   - component: {fileID: 878542976}
   - component: {fileID: 878542977}
-<<<<<<< HEAD
-=======
   - component: {fileID: 878542978}
->>>>>>> quoc
   m_Layer: 0
   m_Name: Right
   m_TagString: Wall
@@ -867,11 +856,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-<<<<<<< HEAD
-  m_Offset: {x: -0.45697117, y: 0.05402565}
-=======
   m_Offset: {x: -0.50332355, y: 0.05402565}
->>>>>>> quoc
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -881,10 +866,6 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-<<<<<<< HEAD
-  m_Size: {x: 0.08605766, y: 9.981276}
-  m_EdgeRadius: 0
-=======
   m_Size: {x: 0.17876244, y: 9.981276}
   m_EdgeRadius: 0
 --- !u!50 &878542978
@@ -914,7 +895,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
->>>>>>> quoc
 --- !u!1 &908667333
 GameObject:
   m_ObjectHideFlags: 0
@@ -1000,10 +980,7 @@ GameObject:
   m_Component:
   - component: {fileID: 981388570}
   - component: {fileID: 981388571}
-<<<<<<< HEAD
-=======
   - component: {fileID: 981388572}
->>>>>>> quoc
   m_Layer: 0
   m_Name: Top
   m_TagString: Wall
@@ -1056,11 +1033,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-<<<<<<< HEAD
-  m_IsTrigger: 1
-=======
   m_IsTrigger: 0
->>>>>>> quoc
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1076,8 +1049,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 17.82873, y: 0.09096146}
   m_EdgeRadius: 0
-<<<<<<< HEAD
-=======
 --- !u!50 &981388572
 Rigidbody2D:
   serializedVersion: 5
@@ -1105,7 +1076,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
->>>>>>> quoc
 --- !u!1 &1016607361
 GameObject:
   m_ObjectHideFlags: 0
@@ -1297,9 +1267,6 @@ MonoBehaviour:
   - {fileID: 742033631}
   fullHeartSprite: {fileID: 21300000, guid: fed24bd82cefc0c4a8ef64dab6231b53, type: 3}
   emptyHeartSprite: {fileID: 21300002, guid: fed24bd82cefc0c4a8ef64dab6231b53, type: 3}
-<<<<<<< HEAD
-  backgroundManager: {fileID: 1767508954}
-=======
 --- !u!1 &1192099363
 GameObject:
   m_ObjectHideFlags: 0
@@ -1347,7 +1314,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> quoc
 --- !u!1 &1256066466
 GameObject:
   m_ObjectHideFlags: 0
@@ -1358,10 +1324,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1256066467}
   - component: {fileID: 1256066468}
-<<<<<<< HEAD
-=======
   - component: {fileID: 1256066469}
->>>>>>> quoc
   m_Layer: 0
   m_Name: Left
   m_TagString: Wall
@@ -1418,11 +1381,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-<<<<<<< HEAD
-  m_Offset: {x: -0.45697117, y: 0.05402565}
-=======
   m_Offset: {x: -0.30521727, y: 0.05402565}
->>>>>>> quoc
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1432,10 +1391,6 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-<<<<<<< HEAD
-  m_Size: {x: 0.08605766, y: 9.981276}
-  m_EdgeRadius: 0
-=======
   m_Size: {x: 0.38956547, y: 9.981276}
   m_EdgeRadius: 0
 --- !u!50 &1256066469
@@ -1465,7 +1420,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
->>>>>>> quoc
 --- !u!1 &1262109342
 GameObject:
   m_ObjectHideFlags: 0
@@ -1582,10 +1536,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1511696506}
   - component: {fileID: 1511696507}
-<<<<<<< HEAD
-=======
   - component: {fileID: 1511696508}
->>>>>>> quoc
   m_Layer: 0
   m_Name: Bottom
   m_TagString: Wall
@@ -1638,11 +1589,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-<<<<<<< HEAD
-  m_IsTrigger: 1
-=======
   m_IsTrigger: 0
->>>>>>> quoc
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1658,8 +1605,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 17.82873, y: 0.09096146}
   m_EdgeRadius: 0
-<<<<<<< HEAD
-=======
 --- !u!50 &1511696508
 Rigidbody2D:
   serializedVersion: 5
@@ -1718,7 +1663,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1722133802}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> quoc
 --- !u!1 &1722133797
 GameObject:
   m_ObjectHideFlags: 0
@@ -1913,10 +1857,7 @@ Transform:
   m_Children:
   - {fileID: 378068309}
   - {fileID: 564619036}
-<<<<<<< HEAD
-=======
   - {fileID: 1672854787}
->>>>>>> quoc
   - {fileID: 849107927}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1946,12 +1887,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 276361991689683284, guid: cd6385a0385793a4f927afbb94c87a06, type: 3}
-<<<<<<< HEAD
-  firePoint: {fileID: 564619036}
-=======
   firePoint1: {fileID: 564619036}
   firePoint2: {fileID: 1672854787}
->>>>>>> quoc
   laserSpeed: 8
   fireRate: 0.5
   shield: {fileID: 849107926}
@@ -1970,10 +1907,7 @@ GameObject:
   - component: {fileID: 1767508949}
   - component: {fileID: 1767508953}
   - component: {fileID: 1767508954}
-<<<<<<< HEAD
-=======
   - component: {fileID: 1767508955}
->>>>>>> quoc
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -2103,8 +2037,6 @@ MonoBehaviour:
   useTransitionEffect: 1
   backgroundMeshRenderer: {fileID: 1767508950}
   sceneTransition: {fileID: 1930698319}
-<<<<<<< HEAD
-=======
 --- !u!95 &1767508955
 Animator:
   serializedVersion: 7
@@ -2127,7 +2059,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
->>>>>>> quoc
 --- !u!1 &1930698318
 GameObject:
   m_ObjectHideFlags: 0
@@ -2446,7 +2377,4 @@ SceneRoots:
   - {fileID: 718918168}
   - {fileID: 467026914}
   - {fileID: 1930698320}
-<<<<<<< HEAD
-=======
   - {fileID: 1192099365}
->>>>>>> quoc
