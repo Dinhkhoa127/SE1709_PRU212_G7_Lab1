@@ -24,6 +24,7 @@ Thumbs.db
 # Rider / VSCode / JetBrains
 .vscode/
 .idea/
+.vs/
 *.sln
 *.csproj
 *.user
