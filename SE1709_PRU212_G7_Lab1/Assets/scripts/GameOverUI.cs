@@ -1,6 +1,6 @@
 ﻿using TMPro;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class GameOverUI : MonoBehaviour
 {
     public TMP_InputField nameInputField;
@@ -8,6 +8,10 @@ public class GameOverUI : MonoBehaviour
 
     private int currentScore;
     private bool hasSaved = false;
+    public Image[] starImages; // Kéo 3 Image vào Inspector
+    public Sprite emptyStar;   // Star_01
+    public Sprite silverStar;  // Star_02 (nếu muốn)
+    public Sprite goldStar;    // Star_03
     void Start()
     {
         int finalScore = PlayerPrefs.GetInt("FinalScore", 0);
@@ -25,6 +29,7 @@ public class GameOverUI : MonoBehaviour
         nameInputField.text = "";
         nameInputField.ActivateInputField();
         hasSaved = false;
+        UpdateStars(score); // Thêm dòng này
         gameObject.SetActive(true);
     }
 
@@ -52,7 +57,22 @@ public class GameOverUI : MonoBehaviour
         gameObject.SetActive(false);
     }
 
+    private void UpdateStars(int score)
+{
+    int starCount = 0;
+    // Ví dụ: 1 sao cho >= 100, 2 sao cho >= 200, 3 sao cho >= 300
+    if (score >= 300) starCount = 3;
+    else if (score >= 200) starCount = 2;
+    else if (score >= 100) starCount = 1;
 
+    for (int i = 0; i < starImages.Length; i++)
+    {
+        if (i < starCount)
+            starImages[i].sprite = goldStar;
+        else
+            starImages[i].sprite = emptyStar;
+    }
+}
     private void Update()
     {
         if (gameObject.activeSelf && Input.GetKeyDown(KeyCode.Return))
