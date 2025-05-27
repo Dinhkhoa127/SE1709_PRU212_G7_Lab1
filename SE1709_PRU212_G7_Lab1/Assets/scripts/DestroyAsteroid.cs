@@ -68,6 +68,7 @@ public class DestroyAsteroid : MonoBehaviour
             if (health <= 0)
             {
                 int bonusScore = 0;
+                
                 if (CompareTag("AsteroidSmall")) bonusScore = 2;
                 else if (CompareTag("AsteroidMedium")) bonusScore = 3;
                 else if (CompareTag("AsteroidLarge")) bonusScore = 4;
@@ -77,7 +78,6 @@ public class DestroyAsteroid : MonoBehaviour
                     Destroy(effect, 0.3f); // Hủy hiệu ứng sau 1 giây
                 }
                 Destroy(gameObject);
-                AudioManager.instance.PlayExplosionSound();
                 TryDropItem();
                 GameManager.instance.AddBonusScoreFromAsteroid(bonusScore);
             }
