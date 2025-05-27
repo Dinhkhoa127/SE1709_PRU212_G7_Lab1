@@ -44,7 +44,6 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-
     }
 
     // Update is called once per frame
@@ -54,7 +53,6 @@ public class GameManager : MonoBehaviour
         gameSpeed += speedIncrease * Time.deltaTime;
         UpdateGameScore();
     }
-
 
     public void AddBonusScoreFromAsteroid(int amount)
     {
@@ -70,7 +68,6 @@ public class GameManager : MonoBehaviour
 
     private void ShowScoreUI()
     {
-
         currentTime += Time.deltaTime;
         scoreText.text = "Score: " + Mathf.FloorToInt(score) + " Time: " + Mathf.FloorToInt(currentTime);
     }
@@ -90,14 +87,13 @@ public class GameManager : MonoBehaviour
     }
     public void AddHealth()
     {
-        if (heart == 3)
+        if(heart == 3)
         {
             heart = 3;
         }
-        else
-        {
-            heart++;
-            UpdateHeartUI();
+        else { 
+        heart++;
+        UpdateHeartUI();
         }
     }
     public void TakeDamage()
@@ -106,20 +102,21 @@ public class GameManager : MonoBehaviour
 
         heart--;
         UpdateHeartUI();
-
-
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
         {
             player.GetComponent<PlayerShoot>().ResetPlayer();
         }
-
         if (heart <= 0)
         {
             PlayerPrefs.SetInt("FinalScore", Mathf.FloorToInt(score));
             PlayerPrefs.Save();
             SceneManager.LoadScene("EndGame");
         }
+    }
+    public float GetCurrentScore()
+    {
+        return score;
     }
 
 }
