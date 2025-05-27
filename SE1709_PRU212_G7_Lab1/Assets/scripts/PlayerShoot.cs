@@ -4,7 +4,8 @@ using UnityEngine;
 public class PlayerShoot : MonoBehaviour
 {
     public GameObject bulletPrefab; // reference to the bullet prefab
-    public Transform firePoint;    // shooting point
+    public Transform firePoint1;    // shooting point 1
+    public Transform firePoint2;    // shooting point 2
     public float laserSpeed = 10f; // speed of the bullet
     public float fireRate = 0.5f;  // fire rate in seconds
     private float nextFireTime = 0f;
@@ -32,12 +33,37 @@ public class PlayerShoot : MonoBehaviour
 
     void Shoot()
     {
-        GameObject laser = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-        Rigidbody2D rb = laser.GetComponent<Rigidbody2D>();
-        rb.linearVelocity = transform.up * laserSpeed;
+        // Kiểm tra xem có đang ở chế độ rapid fire hay không
+        if (isRapidFire)
+        {
+            // Lấy vị trí của firePoint1
+            Vector3 adjustedFirePoint1 = firePoint1.position;
+            adjustedFirePoint1.x -= 0.12f; // Dịch chuyển firePoint đầu tiên sang trái một chút
+
+            // Tạo viên đạn từ điểm bắn chính (firePoint)
+            GameObject laser1 = Instantiate(bulletPrefab, adjustedFirePoint1, firePoint1.rotation);
+            Rigidbody2D rb1 = laser1.GetComponent<Rigidbody2D>();
+            rb1.linearVelocity = transform.up * laserSpeed;
+
+            // Tạo viên đạn từ điểm bắn thứ hai (firePoint2)
+            GameObject laser2 = Instantiate(bulletPrefab, firePoint2.position, firePoint2.rotation);
+            Rigidbody2D rb2 = laser2.GetComponent<Rigidbody2D>();
+            rb2.linearVelocity = transform.up * laserSpeed;
+        }
+        else
+        {
+            // Nếu không phải rapid fire, chỉ bắn từ điểm firePoint chính
+            GameObject laser = Instantiate(bulletPrefab, firePoint1.position, firePoint1.rotation);
+            Rigidbody2D rb = laser.GetComponent<Rigidbody2D>();
+            rb.linearVelocity = transform.up * laserSpeed;
+        }
     }
+
+
     public void ResetPlayer()
     {
+        isRapidFire = false;
+        fireRate = 0.5f;
         if (shield != null)
         {
             shield.SetActive(false);
@@ -110,9 +136,18 @@ public class PlayerShoot : MonoBehaviour
     private Coroutine rapidFireCoroutine;
 
 
+<<<<<<< HEAD
 
     private void ActivateRapidFire(float newRate, float duration)
     {
+=======
+    private void ActivateRapidFire(float newRate, float duration)
+    {
+        if(isRapidFire)
+        {
+            return; 
+        }
+>>>>>>> quoc
         if (rapidFireCoroutine != null)
         {
             StopCoroutine(rapidFireCoroutine);

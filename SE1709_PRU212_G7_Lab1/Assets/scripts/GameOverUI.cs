@@ -1,6 +1,6 @@
 ﻿using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
+
 public class GameOverUI : MonoBehaviour
 {
     public TMP_InputField nameInputField;
@@ -12,6 +12,7 @@ public class GameOverUI : MonoBehaviour
     public Sprite emptyStar;   // Star_01
     public Sprite silverStar;  // Star_02 (nếu muốn)
     public Sprite goldStar;    // Star_03
+    
     void Start()
     {
         int finalScore = PlayerPrefs.GetInt("FinalScore", 0);

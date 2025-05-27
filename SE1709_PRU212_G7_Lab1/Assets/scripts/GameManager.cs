@@ -2,10 +2,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-<<<<<<< HEAD
 using UnityEngine.SceneManagement;
-=======
->>>>>>> b96ea62ee3413b60fd9fa9115791a9d5bccb7d6e
 
 public class GameManager : MonoBehaviour
 {
@@ -25,21 +22,13 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Image[] heartImages;
     [SerializeField] private Sprite fullHeartSprite;
     [SerializeField] private Sprite emptyHeartSprite;
-<<<<<<< HEAD
 
-=======
- 
->>>>>>> b96ea62ee3413b60fd9fa9115791a9d5bccb7d6e
     public void Awake()
     {
         if (instance == null)
         {
             instance = this;
-<<<<<<< HEAD
         }
-=======
-        }    
->>>>>>> b96ea62ee3413b60fd9fa9115791a9d5bccb7d6e
     }
 
     public float GetGameSpeed()
@@ -55,11 +44,6 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> b96ea62ee3413b60fd9fa9115791a9d5bccb7d6e
     }
 
     // Update is called once per frame
@@ -69,11 +53,6 @@ public class GameManager : MonoBehaviour
         gameSpeed += speedIncrease * Time.deltaTime;
         UpdateGameScore();
     }
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> b96ea62ee3413b60fd9fa9115791a9d5bccb7d6e
 
     public void AddBonusScoreFromAsteroid(int amount)
     {
@@ -89,13 +68,8 @@ public class GameManager : MonoBehaviour
 
     private void ShowScoreUI()
     {
-
         currentTime += Time.deltaTime;
-<<<<<<< HEAD
         scoreText.text = "Score: " + Mathf.FloorToInt(score) + " Time: " + Mathf.FloorToInt(currentTime);
-=======
-        scoreText.text = "Score: " +Mathf.FloorToInt(score) + " Time: " + Mathf.FloorToInt(currentTime);
->>>>>>> b96ea62ee3413b60fd9fa9115791a9d5bccb7d6e
     }
     private void UpdateHeartUI()
     {
@@ -113,16 +87,6 @@ public class GameManager : MonoBehaviour
     }
     public void AddHealth()
     {
-<<<<<<< HEAD
-        if (heart == 3)
-        {
-            heart = 3;
-        }
-        else
-        {
-            heart++;
-            UpdateHeartUI();
-=======
         if(heart == 3)
         {
             heart = 3;
@@ -130,7 +94,6 @@ public class GameManager : MonoBehaviour
         else { 
         heart++;
         UpdateHeartUI();
->>>>>>> b96ea62ee3413b60fd9fa9115791a9d5bccb7d6e
         }
     }
     public void TakeDamage()
@@ -139,19 +102,11 @@ public class GameManager : MonoBehaviour
 
         heart--;
         UpdateHeartUI();
-
-<<<<<<< HEAD
-
-=======
-       
->>>>>>> b96ea62ee3413b60fd9fa9115791a9d5bccb7d6e
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
         {
             player.GetComponent<PlayerShoot>().ResetPlayer();
         }
-
-<<<<<<< HEAD
         if (heart <= 0)
         {
             PlayerPrefs.SetInt("FinalScore", Mathf.FloorToInt(score));
@@ -162,12 +117,6 @@ public class GameManager : MonoBehaviour
     public float GetCurrentScore()
     {
         return score;
-=======
-        //if (heart <= 0)
-        //{
-        //    GameOver();
-        //}
->>>>>>> b96ea62ee3413b60fd9fa9115791a9d5bccb7d6e
     }
 
 }
