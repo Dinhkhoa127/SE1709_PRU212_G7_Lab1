@@ -99,8 +99,7 @@ public class PlayerShoot : MonoBehaviour
                 Destroy(effect, 0.4f);
             }
             Destroy(collision.gameObject);
-            GameManager.instance.TakeDamage();
-            AudioManager.instance.PlayExplosionPlayerSound();
+            GameManager.instance.TakeDamage();   
             ResetPlayer();
         }
     }
@@ -114,12 +113,10 @@ public class PlayerShoot : MonoBehaviour
 
             case ItemType.Health:
                 GameManager.instance.AddHealth(); // Tăng máu (tùy chỉnh trong GameManager)
-                AudioManager.instance.PlayHealHpSound();
                 break;
 
             case ItemType.Shield:
                 StartCoroutine(ActivateShield(5f)); // Bật khiên trong 5 giây
-                AudioManager.instance.PlayShieldUpSound();
                 break;
         }
     }
@@ -162,7 +159,6 @@ public class PlayerShoot : MonoBehaviour
 
         shield.SetActive(false);
         isInvincible = false;
-        AudioManager.instance.PlayShieldDownSound();
     }
 
 }
