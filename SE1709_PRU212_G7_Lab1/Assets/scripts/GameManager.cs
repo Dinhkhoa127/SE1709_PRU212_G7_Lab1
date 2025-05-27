@@ -44,7 +44,12 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-
+        // Chỉ update UI nếu đang ở scene Game
+        if (SceneManager.GetActiveScene().name == "Game")
+        {
+            UpdateHeartUI();
+            ShowScoreUI();
+        }
     }
 
     // Update is called once per frame
@@ -64,27 +69,32 @@ public class GameManager : MonoBehaviour
 
     private void UpdateGameScore()
     {
-        score += Time.deltaTime * 10;
+        score += Time.deltaTime * 2;
         ShowScoreUI();
     }
 
     private void ShowScoreUI()
     {
-
         currentTime += Time.deltaTime;
         scoreText.text = "Score: " + Mathf.FloorToInt(score) + " Time: " + Mathf.FloorToInt(currentTime);
     }
     private void UpdateHeartUI()
     {
-        for (int i = 0; i < heartImages.Length; i++)
+        if (heartImages != null && heartImages.Length > 0)
         {
-            if (i < heart)
+            for (int i = 0; i < heartImages.Length; i++)
             {
-                heartImages[i].sprite = fullHeartSprite;
-            }
-            else
-            {
-                heartImages[i].sprite = emptyHeartSprite;
+                if (heartImages[i] != null)
+                {
+                    if (i < heart)
+                    {
+                        heartImages[i].sprite = fullHeartSprite;
+                    }
+                    else
+                    {
+                        heartImages[i].sprite = emptyHeartSprite;
+                    }
+                }
             }
         }
     }
@@ -106,20 +116,21 @@ public class GameManager : MonoBehaviour
 
         heart--;
         UpdateHeartUI();
-
-
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
         {
             player.GetComponent<PlayerShoot>().ResetPlayer();
         }
-
         if (heart <= 0)
         {
             PlayerPrefs.SetInt("FinalScore", Mathf.FloorToInt(score));
             PlayerPrefs.Save();
             SceneManager.LoadScene("EndGame");
         }
+    }
+    public float GetCurrentScore()
+    {
+        return score;
     }
 
 }
