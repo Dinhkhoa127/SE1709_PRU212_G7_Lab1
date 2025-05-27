@@ -28,11 +28,6 @@ public class GameManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
         }
     }
 
@@ -49,12 +44,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        // Chỉ update UI nếu đang ở scene Game
-        if (SceneManager.GetActiveScene().name == "Game")
-        {
-            UpdateHeartUI();
-            ShowScoreUI();
-        }
+
     }
 
     // Update is called once per frame
@@ -74,35 +64,27 @@ public class GameManager : MonoBehaviour
 
     private void UpdateGameScore()
     {
-        score += Time.deltaTime * 2;
+        score += Time.deltaTime * 10;
         ShowScoreUI();
     }
 
     private void ShowScoreUI()
     {
+
         currentTime += Time.deltaTime;
-        if (scoreText != null)
-        {
-            scoreText.text = "Score: " + Mathf.FloorToInt(score) + " Time: " + Mathf.FloorToInt(currentTime);
-        }
+        scoreText.text = "Score: " + Mathf.FloorToInt(score) + " Time: " + Mathf.FloorToInt(currentTime);
     }
     private void UpdateHeartUI()
     {
-        if (heartImages != null && heartImages.Length > 0)
+        for (int i = 0; i < heartImages.Length; i++)
         {
-            for (int i = 0; i < heartImages.Length; i++)
+            if (i < heart)
             {
-                if (heartImages[i] != null)
-                {
-                    if (i < heart)
-                    {
-                        heartImages[i].sprite = fullHeartSprite;
-                    }
-                    else
-                    {
-                        heartImages[i].sprite = emptyHeartSprite;
-                    }
-                }
+                heartImages[i].sprite = fullHeartSprite;
+            }
+            else
+            {
+                heartImages[i].sprite = emptyHeartSprite;
             }
         }
     }
@@ -124,21 +106,20 @@ public class GameManager : MonoBehaviour
 
         heart--;
         UpdateHeartUI();
+
+
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
         {
             player.GetComponent<PlayerShoot>().ResetPlayer();
         }
+
         if (heart <= 0)
         {
             PlayerPrefs.SetInt("FinalScore", Mathf.FloorToInt(score));
             PlayerPrefs.Save();
             SceneManager.LoadScene("EndGame");
         }
-    }
-    public float GetCurrentScore()
-    {
-        return score;
     }
 
 }
