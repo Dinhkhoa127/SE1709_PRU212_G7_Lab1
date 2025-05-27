@@ -99,12 +99,7 @@ public class PlayerShoot : MonoBehaviour
                 Destroy(effect, 0.4f);
             }
             Destroy(collision.gameObject);
-<<<<<<< HEAD
-            GameManager.instance.TakeDamage();
-            AudioManager.instance.PlayExplosionPlayerSound();
-=======
             GameManager.instance.TakeDamage();   
->>>>>>> b96ea62ee3413b60fd9fa9115791a9d5bccb7d6e
             ResetPlayer();
         }
     }
@@ -118,18 +113,10 @@ public class PlayerShoot : MonoBehaviour
 
             case ItemType.Health:
                 GameManager.instance.AddHealth(); // Tăng máu (tùy chỉnh trong GameManager)
-<<<<<<< HEAD
-                AudioManager.instance.PlayHealHpSound();
-=======
->>>>>>> b96ea62ee3413b60fd9fa9115791a9d5bccb7d6e
                 break;
 
             case ItemType.Shield:
                 StartCoroutine(ActivateShield(5f)); // Bật khiên trong 5 giây
-<<<<<<< HEAD
-                AudioManager.instance.PlayShieldUpSound();
-=======
->>>>>>> b96ea62ee3413b60fd9fa9115791a9d5bccb7d6e
                 break;
         }
     }
@@ -178,10 +165,6 @@ public class PlayerShoot : MonoBehaviour
 
         shield.SetActive(false);
         isInvincible = false;
-<<<<<<< HEAD
-        AudioManager.instance.PlayShieldDownSound();
-=======
->>>>>>> b96ea62ee3413b60fd9fa9115791a9d5bccb7d6e
     }
 
 }
