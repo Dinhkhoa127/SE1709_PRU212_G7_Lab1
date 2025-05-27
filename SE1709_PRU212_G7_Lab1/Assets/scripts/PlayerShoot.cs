@@ -69,24 +69,25 @@ public class PlayerShoot : MonoBehaviour
             shield.SetActive(false);
         }
         transform.position = startPosition;
-       
+
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
         if (rb != null)
         {
             rb.linearVelocity = Vector2.zero;
-            rb.angularVelocity = 0f;    
+            rb.angularVelocity = 0f;
         }
         StopAllCoroutines();
         StartCoroutine(InvincibilityCoroutine());
     }
     private IEnumerator InvincibilityCoroutine()
-    { isInvincible = true;
-    shield.SetActive(true);
+    {
+        isInvincible = true;
+        shield.SetActive(true);
 
-    yield return new WaitForSeconds(invincibleDuration);
+        yield return new WaitForSeconds(invincibleDuration);
 
-    shield.SetActive(false);
-    isInvincible = false;
+        shield.SetActive(false);
+        isInvincible = false;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -125,9 +126,9 @@ public class PlayerShoot : MonoBehaviour
 
     private void ActivateRapidFire(float newRate, float duration)
     {
-        if(isRapidFire)
+        if (isRapidFire)
         {
-            return; 
+            return;
         }
         if (rapidFireCoroutine != null)
         {

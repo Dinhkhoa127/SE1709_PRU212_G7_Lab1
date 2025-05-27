@@ -12,7 +12,8 @@ public class GetStar : MonoBehaviour
         // Check if the collided object has the tag "Player"
         if (collider.gameObject.CompareTag("Player"))
         {
-            GameManager.instance.AddBonusScoreFromAsteroid(20);
+            GameManager.instance.AddBonusScoreFromAsteroid(5);
+            AudioManager.instance.PlayCollectStarSound();
             Destroy(gameObject);  
         }
         else
