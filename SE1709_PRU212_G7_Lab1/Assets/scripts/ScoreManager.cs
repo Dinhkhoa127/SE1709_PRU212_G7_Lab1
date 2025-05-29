@@ -30,10 +30,15 @@ public class ScoreManager : MonoBehaviour
             filePath = Path.Combine(Application.persistentDataPath, "points.json");
             LoadScores();
         }
-        else
+        //else
+        //{
+        //    Destroy(gameObject);
+        //}
+        else if (Instance != this)
         {
             Destroy(gameObject);
         }
+        Debug.Log("ScoreManager Awake: " + gameObject.scene.name);
     }
 
     public void LoadScores()
