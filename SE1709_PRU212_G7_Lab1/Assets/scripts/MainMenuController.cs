@@ -7,6 +7,10 @@ public class MainMenuController : MonoBehaviour
     public void PlayGame()
     {
         SceneManager.LoadScene("Game"); // Tên scene chính của game
+        if(Time.timeScale == 0f)
+        {
+            Time.timeScale = 1f;
+        }
     }
 
     public void ShowInstructions()

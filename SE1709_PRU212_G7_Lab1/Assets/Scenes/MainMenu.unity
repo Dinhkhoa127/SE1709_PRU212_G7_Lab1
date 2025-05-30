@@ -441,6 +441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imageNormal: {fileID: 228314892}
   imageActive: {fileID: 1067497574}
+  keepState: 0
 --- !u!114 &342237042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -707,6 +708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 461256982}
   - component: {fileID: 461256983}
+  - component: {fileID: 461256984}
   m_Layer: 0
   m_Name: Mainmanager
   m_TagString: Untagged
@@ -741,6 +743,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a18503a0bf312d143916b1cc10294eb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &461256984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461256980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08a4badf09a348749874ff95b44ecf6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundButton: {fileID: 2045191545}
+  musicButton: {fileID: 898919639}
+  vibrationButton: {fileID: 580487781}
+  notificationsButton: {fileID: 1010945088}
 --- !u!1 &473820109
 GameObject:
   m_ObjectHideFlags: 0
@@ -1065,6 +1083,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imageNormal: {fileID: 269196410}
   imageActive: {fileID: 1237524820}
+  keepState: 0
 --- !u!114 &580487781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1404,6 +1423,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imageNormal: {fileID: 1342148729}
   imageActive: {fileID: 716599003}
+  keepState: 0
 --- !u!114 &767089322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1716,6 +1736,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imageNormal: {fileID: 1896717268}
   imageActive: {fileID: 2115838215}
+  keepState: 0
 --- !u!114 &855581684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1879,6 +1900,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imageNormal: {fileID: 1538275162}
   imageActive: {fileID: 395608478}
+  keepState: 1
 --- !u!114 &898919639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2240,6 +2262,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imageNormal: {fileID: 418917667}
   imageActive: {fileID: 1263040745}
+  keepState: 0
 --- !u!114 &1010945088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3221,6 +3244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imageNormal: {fileID: 2085871303}
   imageActive: {fileID: 1800527795}
+  keepState: 0
 --- !u!114 &1629305253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3855,6 +3879,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imageNormal: {fileID: 690493719}
   imageActive: {fileID: 797832888}
+  keepState: 1
 --- !u!114 &2045191545
 MonoBehaviour:
   m_ObjectHideFlags: 0

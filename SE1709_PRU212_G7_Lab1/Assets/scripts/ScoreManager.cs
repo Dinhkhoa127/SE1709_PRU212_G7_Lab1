@@ -30,10 +30,15 @@ public class ScoreManager : MonoBehaviour
             filePath = Path.Combine(Application.persistentDataPath, "points.json");
             LoadScores();
         }
-        else
+        //else
+        //{
+        //    Destroy(gameObject);
+        //}
+        else if (Instance != this)
         {
             Destroy(gameObject);
         }
+        Debug.Log("ScoreManager Awake: " + gameObject.scene.name);
     }
 
     public void LoadScores()
@@ -97,5 +102,16 @@ public class ScoreManager : MonoBehaviour
     {
         scoreData.scores.Sort((a, b) => b.score.CompareTo(a.score));
         return scoreData.scores.GetRange(0, Mathf.Min(count, scoreData.scores.Count));
+    }
+    public int GetHighScore()
+    {
+        if (scoreData == null || scoreData.scores == null || scoreData.scores.Count == 0)
+            return 0;
+        int max = 0;
+        foreach (var s in scoreData.scores)
+        {
+            if (s.score > max) max = s.score;
+        }
+        return max;
     }
 }

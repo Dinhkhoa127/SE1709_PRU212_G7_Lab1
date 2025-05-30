@@ -1,14 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\huy_Test\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\",
+  "WorkspaceRootPath": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|e:\\huy_test\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\leaderboardui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\leaderboardui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|f:\\huy\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|e:\\huy_test\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|f:\\huy\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\assets\\scripts\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|f:\\huy\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|f:\\huy\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\bootstrapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bootstrapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LeaderboardUI.cs",
-              "DocumentMoniker": "E:\\huy_Test\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\LeaderboardUI.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\LeaderboardUI.cs",
-              "ToolTip": "E:\\huy_Test\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\LeaderboardUI.cs",
-              "RelativeToolTip": "Assets\\scripts\\LeaderboardUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "MainMenuController.cs",
+              "DocumentMoniker": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\MainMenuController.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\MainMenuController.cs",
+              "ToolTip": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\MainMenuController.cs",
+              "RelativeToolTip": "Assets\\scripts\\MainMenuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T10:25:24.886Z",
+              "WhenOpened": "2025-05-30T08:48:24.895Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "E:\\huy_Test\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\GameManager.cs",
-              "ToolTip": "E:\\huy_Test\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\scripts\\GameManager.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwC0AAAAFAAAAAAAAAA==",
+              "Title": "PauseManager.cs",
+              "DocumentMoniker": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\PauseManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\PauseManager.cs",
+              "ToolTip": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\PauseManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\PauseManager.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T10:23:17.079Z",
+              "WhenOpened": "2025-05-30T08:45:41.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ScoreManager.cs",
+              "DocumentMoniker": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\ScoreManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ScoreManager.cs",
+              "ToolTip": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\ScoreManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\ScoreManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwGoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T08:20:56.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BootstrapManager.cs",
+              "DocumentMoniker": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\BootstrapManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\BootstrapManager.cs",
+              "ToolTip": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\BootstrapManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\BootstrapManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T06:03:36.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerShoot.cs",
+              "DocumentMoniker": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\PlayerShoot.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\PlayerShoot.cs",
+              "ToolTip": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\PlayerShoot.cs",
+              "RelativeToolTip": "Assets\\scripts\\PlayerShoot.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAGYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T05:59:53.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\AudioManager.cs",
+              "ToolTip": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\AudioManager.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAYwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T05:51:15.825Z",
               "EditorCaption": ""
             }
           ]

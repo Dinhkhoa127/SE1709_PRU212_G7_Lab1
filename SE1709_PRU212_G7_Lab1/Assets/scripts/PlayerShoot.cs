@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class PlayerShoot : MonoBehaviour
 {
@@ -109,6 +110,7 @@ public class PlayerShoot : MonoBehaviour
         {
             case ItemType.Ammo:
                 ActivateRapidFire(0.15f, 5f); // Bắn nhanh trong 5 giây
+                AudioManager.instance.PlayItemSound();
                 break;
 
             case ItemType.Health:
