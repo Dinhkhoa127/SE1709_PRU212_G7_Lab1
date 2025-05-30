@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
@@ -24,70 +25,118 @@ public class AudioManager : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
+            SceneManager.sceneLoaded += OnSceneLoaded;
+            InitializeAudio();
         }
-        else
+        else if (instance != this)
         {
             Destroy(gameObject);
         }
+    }
 
+    void OnDestroy()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        InitializeAudio();
+    }
+
+    void InitializeAudio()
+    {
         isSoundOn = PlayerPrefs.GetInt("SoundOn", 1) == 1;
         isMusicOn = PlayerPrefs.GetInt("MusicOn", 1) == 1;
-        sfxSource.mute = !isSoundOn;
-        musicSource.mute = !isMusicOn;
+
+        if (sfxSource != null)
+            sfxSource.mute = !isSoundOn;
+
+        if (musicSource != null)
+        {
+            if (SceneManager.GetActiveScene().name == "MainMenu")
+            {
+                musicSource.mute = !isMusicOn;
+                if (!musicSource.isPlaying && isMusicOn)
+                    musicSource.Play();
+            }
+            else
+            {
+                musicSource.Stop();
+            }
+        }
     }
 
     public void SetSound(bool on)
     {
-        sfxSource.mute = isSoundOn; // Thay vì !isSoundOn
-        sfxSource.mute = !on;
+        isSoundOn = on;
+        if (sfxSource != null)
+            sfxSource.mute = !on;
         PlayerPrefs.SetInt("SoundOn", on ? 1 : 0);
         PlayerPrefs.Save();
     }
 
     public void SetMusic(bool on)
     {
-        musicSource.mute = isMusicOn;
-        musicSource.mute = !on;
+        isMusicOn = on;
+        if (musicSource != null)
+        {
+            if (SceneManager.GetActiveScene().name == "MainMenu")
+            {
+                musicSource.mute = !on;
+                if (on && !musicSource.isPlaying)
+                    musicSource.Play();
+                else if (!on && musicSource.isPlaying)
+                    musicSource.Stop();
+            }
+            else
+            {
+                musicSource.Stop();
+            }
+        }
         PlayerPrefs.SetInt("MusicOn", on ? 1 : 0);
         PlayerPrefs.Save();
     }
 
     public void PlayExplosionSound()
     {
-        if (isSoundOn)
+        if (isSoundOn && sfxSource != null && explosionClip != null)
             sfxSource.PlayOneShot(explosionClip);
     }
 
     public void PlayCollectStarSound()
     {
-        if (isSoundOn)
+        if (isSoundOn && sfxSource != null && collectStarClip != null)
             sfxSource.PlayOneShot(collectStarClip);
     }
 
     public void PlayItemSound()
     {
-        if (isSoundOn)
+        if (isSoundOn && sfxSource != null && Item != null)
             sfxSource.PlayOneShot(Item);
     }
+
     public void PlayShieldUpSound()
     {
-        if (isSoundOn)
+        if (isSoundOn && sfxSource != null && ShieldUp != null)
             sfxSource.PlayOneShot(ShieldUp);
     }
+
     public void PlayShieldDownSound()
     {
-        if (isSoundOn)
+        if (isSoundOn && sfxSource != null && ShieldDown != null)
             sfxSource.PlayOneShot(ShieldDown);
     }
+
     public void PlayHealHpSound()
     {
-        if (isSoundOn)
+        if (isSoundOn && sfxSource != null && HealHp != null)
             sfxSource.PlayOneShot(HealHp);
     }
+
     public void PlayExplosionPlayerSound()
     {
-        if (isSoundOn)
+        if (isSoundOn && sfxSource != null && explosionplayerClip != null)
             sfxSource.PlayOneShot(explosionplayerClip);
     }
-
 }

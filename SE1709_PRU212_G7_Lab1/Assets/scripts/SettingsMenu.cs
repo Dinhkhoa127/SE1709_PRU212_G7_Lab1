@@ -15,46 +15,69 @@ public class SettingsMenu : MonoBehaviour
 
     void Start()
     {
+        // Đọc giá trị từ PlayerPrefs
         isSoundOn = PlayerPrefs.GetInt("SoundOn", 1) == 1;
         isMusicOn = PlayerPrefs.GetInt("MusicOn", 1) == 1;
 
-        AudioManager.instance.SetSound(isSoundOn);
-        AudioManager.instance.SetMusic(isMusicOn);
+        // Đảm bảo AudioManager đã được khởi tạo
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.SetSound(isSoundOn);
+            AudioManager.instance.SetMusic(isMusicOn);
+        }
 
+        // Thêm listeners cho các nút
         soundButton.onClick.AddListener(ToggleSound);
         musicButton.onClick.AddListener(ToggleMusic);
         vibrationButton.onClick.AddListener(ToggleVibration);
         notificationsButton.onClick.AddListener(ToggleNotifications);
+
+        // Cập nhật trạng thái UI ban đầu
+        UpdateButtonStates();
+    }
+
+    void UpdateButtonStates()
+    {
+        // Cập nhật màu sắc hoặc trạng thái của các nút dựa trên giá trị hiện tại
+        soundButton.GetComponent<Image>().color = isSoundOn ? Color.green : Color.red;
+        musicButton.GetComponent<Image>().color = isMusicOn ? Color.green : Color.red;
+        vibrationButton.GetComponent<Image>().color = isVibrationOn ? Color.green : Color.red;
+        notificationsButton.GetComponent<Image>().color = isNotificationsOn ? Color.green : Color.red;
     }
 
     void ToggleSound()
     {
         isSoundOn = !isSoundOn;
-        PlayerPrefs.SetInt("SoundOn", isSoundOn ? 1 : 0); // Thêm dòng này
-        AudioManager.instance.SetSound(isSoundOn);
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.SetSound(isSoundOn);
+        }
+        UpdateButtonStates();
         Debug.Log("Sound: " + (isSoundOn ? "On" : "Off"));
     }
 
     void ToggleMusic()
     {
         isMusicOn = !isMusicOn;
-        PlayerPrefs.SetInt("MusicOn", isMusicOn ? 1 : 0); // Thêm dòng này
-        AudioManager.instance.SetMusic(isMusicOn);
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.SetMusic(isMusicOn);
+        }
+        UpdateButtonStates();
         Debug.Log("Music: " + (isMusicOn ? "On" : "Off"));
     }
 
     void ToggleVibration()
     {
         isVibrationOn = !isVibrationOn;
-        // Thêm code để bật/tắt rung
+        UpdateButtonStates();
         Debug.Log("Vibration: " + (isVibrationOn ? "On" : "Off"));
     }
 
     void ToggleNotifications()
     {
         isNotificationsOn = !isNotificationsOn;
-        // Thêm code để bật/tắt thông báo
+        UpdateButtonStates();
         Debug.Log("Notifications: " + (isNotificationsOn ? "On" : "Off"));
     }
-
 }
