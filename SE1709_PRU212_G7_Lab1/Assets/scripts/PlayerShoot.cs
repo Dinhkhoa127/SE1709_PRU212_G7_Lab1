@@ -59,8 +59,6 @@ public class PlayerShoot : MonoBehaviour
             rb.linearVelocity = transform.up * laserSpeed;
         }
     }
-
-
     public void ResetPlayer()
     {
         isRapidFire = false;
@@ -101,12 +99,8 @@ public class PlayerShoot : MonoBehaviour
                 Destroy(effect, 0.4f);
             }
             Destroy(collision.gameObject);
-<<<<<<< HEAD
             GameManager.instance.TakeDamage();
             //AudioManager.instance.PlayExplosionPlayerSound();
-=======
-            GameManager.instance.TakeDamage();   
->>>>>>> 91fe18daa2073e95350dc7d66a3509779775e89d
             ResetPlayer();
         }
     }
@@ -121,14 +115,17 @@ public class PlayerShoot : MonoBehaviour
 
             case ItemType.Health:
                 GameManager.instance.AddHealth(); // Tăng máu (tùy chỉnh trong GameManager)
+                AudioManager.instance.PlayHealHpSound();
                 break;
 
             case ItemType.Shield:
                 StartCoroutine(ActivateShield(5f)); // Bật khiên trong 5 giây
+                AudioManager.instance.PlayShieldUpSound();
                 break;
         }
     }
     private Coroutine rapidFireCoroutine;
+
 
 
     private void ActivateRapidFire(float newRate, float duration)
@@ -167,6 +164,7 @@ public class PlayerShoot : MonoBehaviour
 
         shield.SetActive(false);
         isInvincible = false;
+        AudioManager.instance.PlayShieldDownSound();
     }
 
 }

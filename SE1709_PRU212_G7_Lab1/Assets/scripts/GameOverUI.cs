@@ -1,6 +1,6 @@
 ﻿using TMPro;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class GameOverUI : MonoBehaviour
 {
     public TMP_InputField nameInputField;
@@ -8,6 +8,10 @@ public class GameOverUI : MonoBehaviour
     public TMP_Text highScoreText;
     private int currentScore;
     private bool hasSaved = false;
+    public Image[] starImages; // Kéo 3 Image vào Inspector
+    public Sprite emptyStar;   // Star_01
+    public Sprite silverStar;  // Star_02 (nếu muốn)
+    public Sprite goldStar;    // Star_03
     void Start()
     {
         int finalScore = PlayerPrefs.GetInt("FinalScore", 0);
@@ -25,10 +29,7 @@ public class GameOverUI : MonoBehaviour
         nameInputField.text = "";
         nameInputField.ActivateInputField();
         hasSaved = false;
-<<<<<<< HEAD
         UpdateStars(score);
-=======
->>>>>>> 91fe18daa2073e95350dc7d66a3509779775e89d
         gameObject.SetActive(true);
 
         // Lấy high score từ file JSON qua ScoreManager
@@ -60,7 +61,6 @@ public class GameOverUI : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-<<<<<<< HEAD
     private void UpdateStars(int score)
     {
         int starCount = 0;
@@ -77,9 +77,6 @@ public class GameOverUI : MonoBehaviour
                 starImages[i].sprite = emptyStar;
         }
     }
-=======
-
->>>>>>> 91fe18daa2073e95350dc7d66a3509779775e89d
     private void Update()
     {
         if (gameObject.activeSelf && Input.GetKeyDown(KeyCode.Return))
