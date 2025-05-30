@@ -78,7 +78,6 @@ public class DestroyAsteroid : MonoBehaviour
                     Destroy(effect, 0.3f); // Hủy hiệu ứng sau 1 giây
                 }
                 Destroy(gameObject);
-                AudioManager.instance.PlayExplosionSound();
                 TryDropItem();
                 GameManager.instance.AddBonusScoreFromAsteroid(bonusScore);
             }
