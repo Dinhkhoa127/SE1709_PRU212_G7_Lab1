@@ -125,35 +125,37 @@ public class PlayerShoot : MonoBehaviour
         }
     }
     private Coroutine rapidFireCoroutine;
-
-
+    private float rapidFireRemainingTime = 0f;
 
     private void ActivateRapidFire(float newRate, float duration)
     {
-        if (isRapidFire)
+        if (!isRapidFire)
         {
-            return;
+            rapidFireRemainingTime = duration;
+            rapidFireCoroutine = StartCoroutine(RapidFireRoutine(newRate));
         }
-        if (rapidFireCoroutine != null)
+        else
         {
-            StopCoroutine(rapidFireCoroutine);
-            fireRate = 0.5f; // Reset về mặc định trước khi chạy lại
+            rapidFireRemainingTime += duration;
         }
-
-        rapidFireCoroutine = StartCoroutine(RapidFireRoutine(newRate, duration));
     }
 
-    private IEnumerator RapidFireRoutine(float newRate, float duration)
+    private IEnumerator RapidFireRoutine(float newRate)
     {
-        float originalRate = 0.5f; // mặc định
+        float originalRate = 0.5f;
         fireRate = newRate;
         isRapidFire = true;
 
-        yield return new WaitForSeconds(duration);
+        while (rapidFireRemainingTime > 0f)
+        {
+            yield return null;
+            rapidFireRemainingTime -= Time.deltaTime;
+        }
 
+        // Khi hết thời gian
         fireRate = originalRate;
         isRapidFire = false;
-        rapidFireCoroutine = null; // Xóa để tránh bug nếu bị gọi lại
+        rapidFireCoroutine = null;
     }
     private IEnumerator ActivateShield(float duration)
     {

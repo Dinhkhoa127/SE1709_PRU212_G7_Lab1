@@ -1,30 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\",
+  "WorkspaceRootPath": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|f:\\huy\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|e:\\hoc\\semester7\\pru212\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\destroyasteroid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\destroyasteroid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|f:\\huy\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|e:\\hoc\\semester7\\pru212\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|e:\\hoc\\semester7\\pru212\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|e:\\hoc\\semester7\\pru212\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\buttonimageswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonimageswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|e:\\hoc\\semester7\\pru212\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\assets\\scripts\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|e:\\hoc\\semester7\\pru212\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\dropitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dropitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|e:\\hoc\\semester7\\pru212\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\gameoverui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameoverui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|e:\\hoc\\semester7\\pru212\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|f:\\huy\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|e:\\hoc\\semester7\\pru212\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|f:\\huy\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\bootstrapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bootstrapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|e:\\hoc\\semester7\\pru212\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\getstar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\getstar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|e:\\hoc\\semester7\\pru212\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\backgroundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\backgroundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +54,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainMenuController.cs",
-              "DocumentMoniker": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\MainMenuController.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\MainMenuController.cs",
-              "ToolTip": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\MainMenuController.cs",
-              "RelativeToolTip": "Assets\\scripts\\MainMenuController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "GameOverUI.cs",
+              "DocumentMoniker": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\GameOverUI.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\GameOverUI.cs",
+              "ToolTip": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\GameOverUI.cs",
+              "RelativeToolTip": "Assets\\scripts\\GameOverUI.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwDIAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T08:48:24.895Z",
+              "WhenOpened": "2025-05-30T11:31:17.842Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PauseManager.cs",
-              "DocumentMoniker": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\PauseManager.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\PauseManager.cs",
-              "ToolTip": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\PauseManager.cs",
-              "RelativeToolTip": "Assets\\scripts\\PauseManager.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCEAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "PlayerShoot.cs",
+              "DocumentMoniker": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\PlayerShoot.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\PlayerShoot.cs",
+              "ToolTip": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\PlayerShoot.cs",
+              "RelativeToolTip": "Assets\\scripts\\PlayerShoot.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAswIwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T08:45:41.17Z",
+              "WhenOpened": "2025-05-30T11:10:00.185Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ScoreManager.cs",
-              "DocumentMoniker": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\ScoreManager.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\ScoreManager.cs",
-              "ToolTip": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\ScoreManager.cs",
-              "RelativeToolTip": "Assets\\scripts\\ScoreManager.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAiwGoAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Fire.cs",
+              "DocumentMoniker": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\Fire.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Fire.cs",
+              "ToolTip": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\Fire.cs",
+              "RelativeToolTip": "Assets\\scripts\\Fire.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T08:20:56.458Z",
+              "WhenOpened": "2025-05-30T11:09:43.044Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "BootstrapManager.cs",
-              "DocumentMoniker": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\BootstrapManager.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\BootstrapManager.cs",
-              "ToolTip": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\BootstrapManager.cs",
-              "RelativeToolTip": "Assets\\scripts\\BootstrapManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Title": "DropItem.cs",
+              "DocumentMoniker": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\DropItem.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\DropItem.cs",
+              "ToolTip": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\DropItem.cs",
+              "RelativeToolTip": "Assets\\scripts\\DropItem.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T06:03:36.049Z",
+              "WhenOpened": "2025-05-30T11:08:28.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\AudioManager.cs",
+              "ToolTip": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\AudioManager.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAADwvzAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T11:04:33.298Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PlayerShoot.cs",
-              "DocumentMoniker": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\PlayerShoot.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\PlayerShoot.cs",
-              "ToolTip": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\PlayerShoot.cs",
-              "RelativeToolTip": "Assets\\scripts\\PlayerShoot.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAGYAAAA9AAAAAAAAAA==",
+              "Title": "ButtonImageSwitcher.cs",
+              "DocumentMoniker": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\ButtonImageSwitcher.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ButtonImageSwitcher.cs",
+              "ToolTip": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\ButtonImageSwitcher.cs",
+              "RelativeToolTip": "Assets\\scripts\\ButtonImageSwitcher.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T05:59:53.11Z",
+              "WhenOpened": "2025-05-30T11:03:19.624Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AudioManager.cs",
-              "DocumentMoniker": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\AudioManager.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\AudioManager.cs",
-              "ToolTip": "F:\\huy\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\AudioManager.cs",
-              "RelativeToolTip": "Assets\\scripts\\AudioManager.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAYwB8AAAAAAAAAAAAAAA==",
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\GameManager.cs",
+              "ToolTip": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\GameManager.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAkwAoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T05:51:15.825Z",
+              "WhenOpened": "2025-05-30T11:00:10.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SceneTransition.cs",
+              "DocumentMoniker": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\SceneTransition.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\SceneTransition.cs",
+              "ToolTip": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\SceneTransition.cs",
+              "RelativeToolTip": "Assets\\scripts\\SceneTransition.cs",
+              "ViewState": "AgIAABQBAAAAAAAAAAAAwCUAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T11:00:08.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BackgroundManager.cs",
+              "DocumentMoniker": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\BackgroundManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\BackgroundManager.cs",
+              "ToolTip": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\BackgroundManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\BackgroundManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T11:00:03.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DestroyAsteroid.cs",
+              "DocumentMoniker": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\DestroyAsteroid.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\DestroyAsteroid.cs",
+              "ToolTip": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\DestroyAsteroid.cs",
+              "RelativeToolTip": "Assets\\scripts\\DestroyAsteroid.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAcwFIAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T10:59:35.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetStar.cs",
+              "DocumentMoniker": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\GetStar.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\GetStar.cs",
+              "ToolTip": "E:\\Hoc\\Semester7\\PRU212\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\GetStar.cs",
+              "RelativeToolTip": "Assets\\scripts\\GetStar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T10:59:26.625Z",
               "EditorCaption": ""
             }
           ]
