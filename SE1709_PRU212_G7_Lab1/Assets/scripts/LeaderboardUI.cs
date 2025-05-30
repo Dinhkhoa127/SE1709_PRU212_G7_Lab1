@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class LeaderboardUI : MonoBehaviour
 {
@@ -9,7 +10,19 @@ public class LeaderboardUI : MonoBehaviour
 
     void Start()
     {
-        ShowLeaderboard();
+        //ShowLeaderboard();
+        // Đảm bảo ScoreManager.Instance luôn tồn tại
+
+        Debug.Log("LeaderboardUI Start, ScoreManager.Instance: " + (ScoreManager.Instance != null));
+        if (ScoreManager.Instance != null)
+        {
+            ShowLeaderboard();
+        }
+        else
+        {
+            Debug.LogError("ScoreManager.Instance is null! Đảm bảo ScoreManager chỉ có ở scene MainMenu và dùng DontDestroyOnLoad.");
+        }
+
     }
 
     public void ShowLeaderboard()
@@ -52,3 +65,4 @@ public class LeaderboardUI : MonoBehaviour
         }
     }
 }
+

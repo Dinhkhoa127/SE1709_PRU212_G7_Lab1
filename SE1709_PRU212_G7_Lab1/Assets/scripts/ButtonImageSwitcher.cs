@@ -1,17 +1,37 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 
 public class ButtonImageSwitcher : MonoBehaviour
 {
-    public GameObject imageNormal;    // Kéo Sound vào đây
-    public GameObject imageActive;    // Kéo SoundActive vào đây
+    public GameObject imageNormal;
+    public GameObject imageActive;
+    public bool keepState = false; // Chọn true nếu muốn giữ trạng thái
 
-    // Hàm này sẽ chuyển đổi qua lại giữa 2 hình
+    void Start()
+    {
+        if (keepState)
+        {
+            bool isActive = PlayerPrefs.GetInt(gameObject.name + "_Active", 1) == 1;
+            imageNormal.SetActive(!isActive);
+            imageActive.SetActive(isActive);
+        }
+        else
+        {
+            // Mặc định trạng thái nào đó, ví dụ là bật
+            imageNormal.SetActive(true);
+            imageActive.SetActive(false);
+        }
+    }
+
     public void ToggleImage()
     {
         bool isActive = !imageActive.activeSelf;
         imageNormal.SetActive(!isActive);
         imageActive.SetActive(isActive);
+
+        if (keepState)
+        {
+            PlayerPrefs.SetInt(gameObject.name + "_Active", isActive ? 1 : 0);
+            PlayerPrefs.Save();
+        }
     }
-  
 }

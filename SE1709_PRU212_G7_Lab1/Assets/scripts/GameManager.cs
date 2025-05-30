@@ -28,11 +28,6 @@ public class GameManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
         }
     }
 
@@ -49,12 +44,6 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        // Chỉ update UI nếu đang ở scene Game
-        if (SceneManager.GetActiveScene().name == "Game")
-        {
-            UpdateHeartUI();
-            ShowScoreUI();
-        }
     }
 
     // Update is called once per frame
