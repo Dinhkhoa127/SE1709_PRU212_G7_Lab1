@@ -6,7 +6,7 @@ public class DestroyAsteroid : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private float health = 1;
     private float currentGameTimePassed = 0f;
-    private float healthIncreaseInterval = 60f; // Tăng máu mỗi 60 giây
+    private float healthIncreaseInterval = 100f; // Tăng máu mỗi 60 giây
     private float healthIncreaseAmount = 1f; // Mỗi lần tăng 1 máu
     public GameObject explosionAsteroid; // Gắn prefab hiệu ứng nổ từ Inspector
     [System.Serializable]
@@ -31,12 +31,12 @@ public class DestroyAsteroid : MonoBehaviour
         
         // Tăng thời gian đã trôi qua
         currentGameTimePassed = GameManager.instance.gameTime;
-        
-        // Kiểm tra nếu đã đủ thời gian để tăng máu
+
+       
         if (currentGameTimePassed >= healthIncreaseInterval)
         {
             health += healthIncreaseAmount;
-            healthIncreaseInterval += 60; // Reset thời gian
+            healthIncreaseInterval += 150; // Reset thời gian
         }
     }
 

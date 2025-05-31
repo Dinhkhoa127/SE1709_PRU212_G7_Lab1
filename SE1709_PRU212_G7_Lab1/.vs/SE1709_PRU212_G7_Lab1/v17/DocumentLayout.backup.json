@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ki_7\\PRU212\\final\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\",
+  "WorkspaceRootPath": "G:\\PRU212\\lab1 - main\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|d:\\ki_7\\pru212\\final\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|g:\\pru212\\lab1 - main\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|d:\\ki_7\\pru212\\final\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\settingsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\settingsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|g:\\pru212\\lab1 - main\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AudioManager.cs",
-              "DocumentMoniker": "D:\\ki_7\\PRU212\\final\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\AudioManager.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\AudioManager.cs",
-              "ToolTip": "D:\\ki_7\\PRU212\\final\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\AudioManager.cs",
-              "RelativeToolTip": "Assets\\scripts\\AudioManager.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowDkAAAAjAAAAAAAAAA==",
+              "Title": "Move.cs",
+              "DocumentMoniker": "G:\\PRU212\\lab1 - main\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\Move.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Move.cs",
+              "ToolTip": "G:\\PRU212\\lab1 - main\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\Move.cs",
+              "RelativeToolTip": "Assets\\scripts\\Move.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T14:53:32.812Z",
+              "WhenOpened": "2025-05-30T15:31:49.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SettingsMenu.cs",
-              "DocumentMoniker": "D:\\ki_7\\PRU212\\final\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\SettingsMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\SettingsMenu.cs",
-              "ToolTip": "D:\\ki_7\\PRU212\\final\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\SettingsMenu.cs",
-              "RelativeToolTip": "Assets\\scripts\\SettingsMenu.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBcAAAAJAAAAAAAAAA==",
+              "Title": "PlayerShoot.cs",
+              "DocumentMoniker": "G:\\PRU212\\lab1 - main\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\PlayerShoot.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\PlayerShoot.cs",
+              "ToolTip": "G:\\PRU212\\lab1 - main\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\PlayerShoot.cs",
+              "RelativeToolTip": "Assets\\scripts\\PlayerShoot.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T13:51:59.14Z",
+              "WhenOpened": "2025-05-30T15:31:25.899Z",
               "EditorCaption": ""
             }
           ]

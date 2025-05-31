@@ -17,6 +17,8 @@ public class AsteroidsSpawner : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
+        float targetSpawnRate = Mathf.Lerp(2f, 1f, GameManager.instance.gameTime / 150f);
+        spamRate = Mathf.Max(targetSpawnRate, 1f);
         if (timer > spamRate)
         {
             SpawnAsteroids();
@@ -26,9 +28,13 @@ public class AsteroidsSpawner : MonoBehaviour
 
     private void SpawnAsteroids()
     {
-        int index = Random.Range(0, asteroidSpawn.Length);
-        float randomPosition = Random.Range(minX, maxX);
-        Vector3 posSpawn = new Vector3(randomPosition, 6f, 0);
-        GameObject obstacle = Instantiate(asteroidSpawn[index], posSpawn, Quaternion.identity);
+        int numberToSpawn = Random.Range(1, 3); 
+        for (int i = 0; i < numberToSpawn; i++)
+        {
+            int index = Random.Range(0, asteroidSpawn.Length);
+            float randomPosition = Random.Range(minX, maxX);
+            Vector3 posSpawn = new Vector3(randomPosition, 6f, 0);
+            Instantiate(asteroidSpawn[index], posSpawn, Quaternion.identity);
+        }
     }
 }
