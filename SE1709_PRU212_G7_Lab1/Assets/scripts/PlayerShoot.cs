@@ -11,7 +11,7 @@ public class PlayerShoot : MonoBehaviour
     public float fireRate = 0.5f;  // fire rate in seconds
     private float nextFireTime = 0f;
     private Vector3 startPosition;
-    public GameObject shield; 
+    public GameObject shield;
     private bool isInvincible = false;
     private float invincibleDuration = 3f;
     public GameObject hitEffectPrefab;
@@ -21,7 +21,7 @@ public class PlayerShoot : MonoBehaviour
     void Start()
     {
         startPosition = transform.position;
-        shield.SetActive(false); 
+        shield.SetActive(false);
     }
     void Update()
     {
@@ -136,7 +136,14 @@ public class PlayerShoot : MonoBehaviour
         }
         else
         {
-            rapidFireRemainingTime += duration;
+            if (rapidFireRemainingTime > 20f)
+            {
+                rapidFireRemainingTime = 20f;
+            }
+            else
+            {
+                rapidFireRemainingTime += duration;
+            }
         }
     }
 
