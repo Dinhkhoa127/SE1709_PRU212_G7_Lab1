@@ -168,8 +168,8 @@ MonoBehaviour:
   explosionAsteroid: {fileID: 2155744923558674461, guid: 845f12cdecdea95418802dd85e797a9e, type: 3}
   dropOptions:
   - prefab: {fileID: 4046016120598640919, guid: 8b3a84a13d2c0b647b614b8479ecc747, type: 3}
-    chance: 0.25
+    chance: 0.05
   - prefab: {fileID: 7500643819311538898, guid: 7df87f2087cf4024eaca79469f940681, type: 3}
-    chance: 0.25
+    chance: 0.1
   - prefab: {fileID: 6684462007866299281, guid: 3aaf6c84202c0144798959a4424319e4, type: 3}
-    chance: 0.25
+    chance: 0.1

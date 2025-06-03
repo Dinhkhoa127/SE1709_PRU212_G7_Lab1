@@ -136,9 +136,9 @@ public class PlayerShoot : MonoBehaviour
         }
         else
         {
-            if (rapidFireRemainingTime > 20f)
+            if (rapidFireRemainingTime > 15f)
             {
-                rapidFireRemainingTime = 20f;
+                rapidFireRemainingTime = 15f;
             }
             else
             {
