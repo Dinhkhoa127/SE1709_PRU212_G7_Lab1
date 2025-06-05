@@ -1741,6 +1741,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1740220277}
     - target: {fileID: 9028410396158011031, guid: 5bef8658bf43ab94182bb082b8aa9dd5, type: 3}
+      propertyPath: PlayerShoot
+      value: 
+      objectReference: {fileID: 8300000, guid: a746a71f40b4e6b4b9bee2f775609c2d, type: 3}
+    - target: {fileID: 9028410396158011031, guid: 5bef8658bf43ab94182bb082b8aa9dd5, type: 3}
       propertyPath: musicSource
       value: 
       objectReference: {fileID: 1740220276}

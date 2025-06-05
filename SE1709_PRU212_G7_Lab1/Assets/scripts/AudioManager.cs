@@ -15,7 +15,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip ShieldDown;
     public AudioClip HealHp;
     public AudioClip explosionplayerClip;
-
+    public AudioClip PlayerShoot;
     public bool isSoundOn = true;
     public bool isMusicOn = true;
 
@@ -54,16 +54,17 @@ public class AudioManager : MonoBehaviour
 
         if (musicSource != null)
         {
-            if (SceneManager.GetActiveScene().name == "MainMenu")
-            {
-                musicSource.mute = !isMusicOn;
-                if (!musicSource.isPlaying && isMusicOn)
-                    musicSource.Play();
-            }
-            else
-            {
-                musicSource.Stop();
-            }
+            musicSource.mute = !isMusicOn;
+            if (!musicSource.isPlaying && isMusicOn)
+                musicSource.Play();
+            //if (SceneManager.GetActiveScene().name == "MainMenu")
+            //{
+                
+            //}
+            //else
+            //{
+            //    musicSource.Stop();
+            //}
         }
     }
 
@@ -81,18 +82,19 @@ public class AudioManager : MonoBehaviour
         isMusicOn = on;
         if (musicSource != null)
         {
-            if (SceneManager.GetActiveScene().name == "MainMenu")
-            {
-                musicSource.mute = !on;
-                if (on && !musicSource.isPlaying)
-                    musicSource.Play();
-                else if (!on && musicSource.isPlaying)
-                    musicSource.Stop();
-            }
-            else
-            {
+            musicSource.mute = !on;
+            if (on && !musicSource.isPlaying)
+                musicSource.Play();
+            else if (!on && musicSource.isPlaying)
                 musicSource.Stop();
-            }
+            //if (SceneManager.GetActiveScene().name == "MainMenu")
+            //{
+              
+            //}
+            //else
+            //{
+            //    musicSource.Stop();
+            //}
         }
         PlayerPrefs.SetInt("MusicOn", on ? 1 : 0);
         PlayerPrefs.Save();
@@ -115,7 +117,11 @@ public class AudioManager : MonoBehaviour
         if (isSoundOn && sfxSource != null && Item != null)
             sfxSource.PlayOneShot(Item);
     }
-
+    public void PlayerShootsound()
+    {
+        if (isSoundOn && sfxSource != null && Item != null)
+            sfxSource.PlayOneShot(Item);
+    }
     public void PlayShieldUpSound()
     {
         if (isSoundOn && sfxSource != null && ShieldUp != null)

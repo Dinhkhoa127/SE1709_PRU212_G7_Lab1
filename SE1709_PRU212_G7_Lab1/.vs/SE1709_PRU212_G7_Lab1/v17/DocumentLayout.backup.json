@@ -5,6 +5,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|f:\\unityfolder\\testmain_now\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|f:\\unityfolder\\testmain_now\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\asteroidsspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\asteroidsspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|f:\\unityfolder\\testmain_now\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|f:\\unityfolder\\testmain_now\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|f:\\unityfolder\\testmain_now\\se1709_pru212_g7_lab1\\se1709_pru212_g7_lab1\\assets\\scripts\\destroyasteroid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B59A6070-6CF5-111C-DD63-9A0996028504}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\destroyasteroid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +30,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "F:\\UnityFolder\\testMain_now\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\GameManager.cs",
+              "ToolTip": "F:\\UnityFolder\\testMain_now\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\GameManager.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:23:45.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ScoreManager.cs",
+              "DocumentMoniker": "F:\\UnityFolder\\testMain_now\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\ScoreManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ScoreManager.cs",
+              "ToolTip": "F:\\UnityFolder\\testMain_now\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\ScoreManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\ScoreManager.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:21:03.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DestroyAsteroid.cs",
+              "DocumentMoniker": "F:\\UnityFolder\\testMain_now\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\DestroyAsteroid.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\DestroyAsteroid.cs",
+              "ToolTip": "F:\\UnityFolder\\testMain_now\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\DestroyAsteroid.cs",
+              "RelativeToolTip": "Assets\\scripts\\DestroyAsteroid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:08:38.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AsteroidsSpawner.cs",
+              "DocumentMoniker": "F:\\UnityFolder\\testMain_now\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\AsteroidsSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\AsteroidsSpawner.cs",
+              "ToolTip": "F:\\UnityFolder\\testMain_now\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\AsteroidsSpawner.cs",
+              "RelativeToolTip": "Assets\\scripts\\AsteroidsSpawner.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:02:16.656Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +92,7 @@
               "RelativeDocumentMoniker": "Assets\\scripts\\PlayerShoot.cs",
               "ToolTip": "F:\\UnityFolder\\testMain_now\\SE1709_PRU212_G7_Lab1\\SE1709_PRU212_G7_Lab1\\Assets\\scripts\\PlayerShoot.cs",
               "RelativeToolTip": "Assets\\scripts\\PlayerShoot.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAuwIwAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAuwIwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-01T03:48:06.958Z",
               "EditorCaption": ""

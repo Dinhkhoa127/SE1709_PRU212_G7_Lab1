@@ -57,7 +57,9 @@ public class PlayerShoot : MonoBehaviour
             GameObject laser = Instantiate(bulletPrefab, firePoint1.position, firePoint1.rotation);
             Rigidbody2D rb = laser.GetComponent<Rigidbody2D>();
             rb.linearVelocity = transform.up * laserSpeed;
+
         }
+        AudioManager.instance.PlayerShootsound(); // Phát âm thanh bắn
     }
     public void ResetPlayer()
     {
